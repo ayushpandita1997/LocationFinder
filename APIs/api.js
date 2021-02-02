@@ -60,8 +60,3 @@ countriesContainer.style.opacity = 1;
   }
     }
     btn.addEventListener('click',AsynApi);
-  
-    const testFun = function(){
-    console.log('testing the application');
-    };
-    testFun();

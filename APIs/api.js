@@ -91,7 +91,7 @@ countriesContainer.style.opacity = 1;
         // myFun1(res3);
         
      
-        const count4 = await fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=24e8ca33d9d432f21f8d01dcfbf6e7fe`);
+        const count4 = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=24e8ca33d9d432f21f8d01dcfbf6e7fe`);
               //  if(!count4.ok) throw new Error('country not found');
                const res4= await count4.json();
               //  console.log(res4);
